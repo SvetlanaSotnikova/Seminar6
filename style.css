@@ -632,6 +632,8 @@ input[type="email"]:hover {
 
 .footer-conteiner {
     background-color: #222224;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .footer {
@@ -649,6 +651,60 @@ input[type="email"]:hover {
 }
 
 .footer-conteiner {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .main-img {
+        display: none;
+    }
+
+    .main-text h1 {
+        font-weight: 900;
+        font-size: 38px;
+        color: #222;
+    }
+
+    .sml-text {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .last-word {
+        font-weight: 700;
+        font-size: 20px;
+        color: #f16d7f;
+    }
+    .vertical-line {
+        height: 61px;
+    }
+    .main-conteiner {
+        padding-top: 148px;
+        padding-bottom: 149px;
+    }
+
+    .group_2 {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    
+    .footer .text {
+        order: 2; 
+        text-align: center; 
+    }
+    .footer .social .box {
+        order: 1; 
+    }
+    .footer-conteiner {
+        padding-top: 43px;
+    }
 }
